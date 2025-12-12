@@ -29,7 +29,7 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda m
 Buka terminal (Git Bash / CMD / PowerShell), lalu jalankan perintah berikut:
 
 ```bash
-git clone [https://github.com/Lightzss/CineSense.git](https://github.com/Lightzss/CineSense.git)
+git clone https://github.com/Lightzss/CineSense.git
 cd CineSense
 ```
 
