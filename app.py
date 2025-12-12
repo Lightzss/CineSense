@@ -108,6 +108,14 @@ st.markdown("""
 # ---------------------------------------------------
 # FUNGSI PREPROCESSING (Seperti di Jupyter Notebook)
 # ---------------------------------------------------
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+
 lemmatizer = WordNetLemmatizer()
 stopwords_english = set(stopwords.words('english'))
 negative_words = {"no", "not", "nor", "don", "don't", "ain", "aren", "aren't", 
