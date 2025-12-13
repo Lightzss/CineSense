@@ -26,41 +26,54 @@ Proyek ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualit
 Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda menggunakan ***Virtual Environment***. Cara ini disarankan agar *library* proyek tidak tercampur dengan sistem utama komputer Anda.
 
 ### 1. *Clone* Repositori
-Buka terminal (Git Bash / CMD / PowerShell), lalu jalankan perintah berikut:
+Buka terminal (Git Bash / CMD / PowerShell), lalu arahkan ke folder tempat project ingin diunduh.
+```bash
+cd Downloads
+```
 
+Lakukan *clone* repositori dan tunggu hingga prosesnya berakhir.
 ```bash
 git clone https://github.com/Lightzss/CineSense.git
+```
+
+Selanjutnya Anda perlu masuk ke folder repository.
+```bash
 cd CineSense
 ```
 
 ### 2. Setup *Virtual Environment* (Venv)
-Buat lingkungan virtual Python (Virtual Environment) baru.
+Buat lingkungan virtual Python (*Virtual Environment*) baru.
 
 **Untuk Pengguna Windows:**
-
 ```bash
 python -m venv venv
+```
+
+Aktifkan *virtual environment* yang sudah dibuat.
+```bash
 venv\Scripts\activate
 ```
 
 **Untuk Pengguna macOS / Linux:**
-
 ```bash
 python3 -m venv venv
+```
+
+Aktifkan *virtual environment* yang sudah dibuat.
+```bash
 source venv/bin/activate
 ```
 
-(Jika berhasil, akan muncul tanda (venv) di awal baris terminal Anda)
+Jika berhasil, akan muncul tanda (*venv*) di awal baris terminal Anda
 
 ### 3. *Install Library*
-Setelah *virtual environment* aktif, install semua kebutuhan *library* yang ada di `requirements.txt`:
+Setelah *virtual environment* aktif, *install* semua kebutuhan *library* yang ada di `requirements.txt`.
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 4. Jalankan *Streamlit*
-Jalankan aplikasi dengan perintah:
-
+Jalankan aplikasi melalui perintah dibawah ini.
 ```bash
 streamlit run app.py
 ```
@@ -68,7 +81,6 @@ streamlit run app.py
 Aplikasi akan otomatis terbuka di browser Anda pada alamat http://localhost:8501.
 
 ## 📂 Struktur File
-
 * `dataset/`: Data yang digunakan.
 * `source/`: Berisi model (`.pkl`) yang sudah di-*training*.
 * `app.py`: File aplikasi Streamlit.
