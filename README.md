@@ -8,6 +8,9 @@
 
 Aplikasi ini menggunakan metode **klasifikasi** dalam *Machine Learning* (ML) dengan algoritma ***Logistic Regression*** untuk memprediksi apakah sebuah komentar memiliki sentimen **Positif** atau **Negatif**. Untuk mengubah komentar menjadi nilai numerik, aplikasi ini menggunakan teknik vektorisasi ***Term Frequency–Inverse Document Frequency* (TF-IDF)**.
 
+Aplikasi ini juga dapat diakses melalui link dibawah ini.
+[*Streamlit*](https://cinesense-ai.streamlit.app/)
+
 ## 👥 Anggota Kelompok
 * **36240010** - Levingga Mettaliani
 * **36240011** - Calsen Arlu
