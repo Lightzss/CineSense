@@ -26,7 +26,7 @@ Proyek ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualit
 Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda menggunakan ***Virtual Environment***. Cara ini disarankan agar *library* proyek tidak tercampur dengan sistem utama komputer Anda.
 
 ### 1. *Clone* Repositori
-Buka terminal (Git Bash / CMD / PowerShell), lalu arahkan ke folder tempat project ingin diunduh.
+Buka terminal (Git Bash / CMD / PowerShell), lalu arahkan ke folder tempat project ingin diunduh, misalnya di folder `Downloads`.
 ```bash
 cd Downloads
 ```
@@ -36,13 +36,8 @@ Lakukan *clone* repositori dan tunggu hingga prosesnya berakhir.
 git clone https://github.com/Lightzss/CineSense.git
 ```
 
-Selanjutnya Anda perlu masuk ke folder repository.
-```bash
-cd CineSense
-```
-
 ### 2. Setup *Virtual Environment* (Venv)
-Buat lingkungan virtual Python (*Virtual Environment*) baru.
+Buka folder CineSense melalui VSCode, dan buka terminal. Kemudian buat lingkungan virtual Python (*Virtual Environment*) baru.
 
 **Untuk Pengguna Windows:**
 ```bash
