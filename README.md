@@ -79,7 +79,7 @@ Aplikasi akan otomatis terbuka di browser Anda pada alamat http://localhost:8501
 
 ## 📂 Struktur File
 * `dataset/`: Data yang digunakan.
-* `source/`: Berisi model (`.pkl`) yang sudah di-*training*.
+* `source/`: Berisi vektorizer dan model yang sudah di-*training*.
 * `app.py`: File aplikasi Streamlit.
 * `movie-review-sentiment-analysis.ipynb`: File analisis data dan pembuatan model.
 * `requirements.txt`: Berisi library yang digunakan untuk melakukan analisis, pembuatan model, dan menjalankan aplikasi.
