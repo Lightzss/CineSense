@@ -17,7 +17,7 @@ Aplikasi ini juga dapat diakses melalui link berikut: [*Streamlit*](https://cine
 * **36240021** - Cynthia Tipani Tio
 
 ## 📊 Tentang *project*
-*project* ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualitas film secara cepat tanpa harus membaca ribuan ulasan satu per satu.
+*Project* ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualitas film secara cepat tanpa harus membaca ribuan ulasan satu per satu.
 * **Dataset**: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 * **Metode**: *Machine Learning* (NLP)
 * **Algoritma**: *Logistic Regression*
