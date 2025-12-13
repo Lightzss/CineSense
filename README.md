@@ -4,7 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Scikit-Learn](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 
-**CineSense** merupakan aplikasi *Artificial Intelligence* (AI) yang dirancang untuk melakukan analisis sentimen terhadap komentar dari suatu film. Proyek ini dibuat untuk memenuhi Ujian Akhir Semester (UAS) pada mata kuliah Kecerdasan Buatan dan Sains Data.
+**CineSense** merupakan aplikasi *Artificial Intelligence* (AI) yang dirancang untuk melakukan analisis sentimen terhadap komentar dari suatu film. *project* ini dibuat untuk memenuhi Ujian Akhir Semester (UAS) pada mata kuliah Kecerdasan Buatan dan Sains Data.
 
 Aplikasi ini menggunakan metode **klasifikasi** dalam *Machine Learning* (ML) dengan algoritma ***Logistic Regression*** untuk memprediksi apakah sebuah komentar memiliki sentimen **Positif** atau **Negatif**. Untuk mengubah komentar menjadi nilai numerik, aplikasi ini menggunakan teknik vektorisasi ***Term Frequency–Inverse Document Frequency* (TF-IDF)**.
 
@@ -16,8 +16,8 @@ Aplikasi ini juga dapat diakses melalui link berikut: [*Streamlit*](https://cine
 * **36240019** - Samuel Lie
 * **36240021** - Cynthia Tipani Tio
 
-## 📊 Tentang Proyek
-Proyek ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualitas film secara cepat tanpa harus membaca ribuan ulasan satu per satu.
+## 📊 Tentang *project*
+*project* ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualitas film secara cepat tanpa harus membaca ribuan ulasan satu per satu.
 * **Dataset**: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 * **Metode**: *Machine Learning* (NLP)
 * **Algoritma**: *Logistic Regression*
@@ -25,10 +25,10 @@ Proyek ini dirancang untuk menyelesaikan permasalahan sulitnya mengetahui kualit
 
 ## 🚀 Cara Menjalankan Aplikasi (Lokal)
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda menggunakan ***Virtual Environment***. Cara ini disarankan agar *library* proyek tidak tercampur dengan sistem utama komputer Anda.
+Ikuti langkah-langkah di bawah ini untuk menjalankan aplikasi di komputer Anda menggunakan ***Virtual Environment***. Cara ini disarankan agar *library* *project* tidak tercampur dengan sistem utama komputer Anda.
 
 ### 1. *Clone* Repositori
-Buka terminal (Git Bash / CMD / PowerShell), lalu arahkan ke folder tempat project ingin diunduh, misalnya di folder `Downloads`.
+Buka terminal (Git Bash / CMD / PowerShell), lalu arahkan ke folder tempat *project* ingin diunduh, misalnya di folder `Downloads`.
 ```bash
 cd Downloads
 ```
