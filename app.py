@@ -32,9 +32,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# -----------
-# CUSTOM CSS
-# -----------
+# -------------
+# TAMPILAN CSS
+# -------------
 st.markdown("""
     <style>
     .stApp {
@@ -155,7 +155,7 @@ def text_preprocessing(text):
     return ' '.join(clean_tokens)
 
 # --------------------------
-# LOAD VECTORIZER DAN MODEL
+# LOAD MODEL DAN VECTORIZER
 # --------------------------
 @st.cache_resource
 def load_assets():
@@ -168,9 +168,9 @@ def load_assets():
 
 vectorizer, model = load_assets()
 
-# ----------------------
-# HEADER & HERO SECTION
-# ----------------------
+# ----------------------------
+# HEADER DAN PENANGANAN ERROR
+# ----------------------------
 st.title("CINE SENSE")
 st.markdown("<h3 style='text-align: center; color: #b3b3b3; margin-bottom: 30px;'>Unlock the True Sentiment of Movie Reviews</h3>", unsafe_allow_html=True)
 
@@ -178,9 +178,9 @@ if model is None:
     st.error("⚠️ File model atau vectorizer tidak ditemukan di folder 'source'.")
     st.stop()
 
-# -------------------------------------------------------------------------
-# 5. INPUT & PREDICTION
-# -------------------------------------------------------------------------
+# ---------------------
+# INPUT DAN PREDICTION
+# ---------------------
 with st.form(key='sentiment_form'):
     input_text = st.text_area(
         "Masukkan Komentar Anda dalam Bahasa Inggris", 
